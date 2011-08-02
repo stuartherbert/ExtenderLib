@@ -1,6 +1,6 @@
 <?php
 
-namespace Phix\ExtenderLib;
+namespace Phix_Project\ExtenderLib;
 
 $testVar = 'trout';
 

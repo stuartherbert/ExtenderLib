@@ -34,7 +34,7 @@
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * @package     Phix
+ * @package     Phix_Project
  * @subpackage  ExtenderLib
  * @author      Stuart Herbert <stuart@stuartherbert.com>
  * @copyright   2011 Stuart Herbert. www.stuartherbert.com
@@ -44,7 +44,7 @@
  * @version     @@PACKAGE_VERSION@@
  */
 
-namespace Phix\ExtenderLib;
+namespace Phix_Project\ExtenderLib;
 
 class FileLoaderTest extends \PHPUnit_Framework_TestCase
 {
@@ -55,7 +55,7 @@ class FileLoaderTest extends \PHPUnit_Framework_TestCase
 
                 $this->assertTrue(is_array($newClasses));
                 $this->assertEquals(1, count($newClasses));
-                $this->assertEquals('Phix\\ExtenderLib\\DummyClass1', $newClasses[0]);
+                $this->assertEquals('Phix_Project\\ExtenderLib\\DummyClass1', $newClasses[0]);
         }
 
         public function testThrowsExceptionIfFileNotFound()
