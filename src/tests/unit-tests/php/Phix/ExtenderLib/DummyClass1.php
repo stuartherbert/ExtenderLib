@@ -1,6 +1,6 @@
 <?php
 
-namespace Gradwell\ExtenderLib;
+namespace Phix\ExtenderLib;
 
 class DummyClass1
 {
