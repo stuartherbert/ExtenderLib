@@ -9,8 +9,8 @@ System-Wide Installation
 
 ExtenderLib should be installed using the [PEAR Installer](http://pear.php.net). This installer is the community's de-facto standard for distributing PHP components.
 
-    sudo pear channel-discover pear.gradwell.com
-    sudo pear install --alldeps Gradwell/ExtenderLib
+    sudo pear channel-discover pear.phix-project.org
+    sudo pear install --alldeps phix/ExtenderLib
 
 After installation, you will find ExtenderLib inside your local PEAR repository, which on Linux systems is normally /usr/share/php.
 
@@ -56,10 +56,10 @@ If you want to patch or enhance this component, you will need to create a suitab
     sudo pear install --alldeps phpunit/PHP_CodeBrowser
 
     # phix
-    sudo pear channel-discover pear.gradwell.com
-    sudo pear install --alldeps Gradwell/phix
+    sudo pear channel-discover pear.phix-project.org
+    sudo pear install --alldeps phix/phix
 
 You can then clone the git repository:
 
     # ExtenderLib
-    git clone git://github.com/Gradwell/ExtenderLib.git
+    git clone git://github.com/stuartherbert/ExtenderLib.git
